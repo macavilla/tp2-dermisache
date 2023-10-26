@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: "RedHat";
+    src:url("./fonts/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf");
+}
+
+
+@font-face {
+    font-family: "DelaGothicOne";
+    src:url("./fonts/Dela_Gothic_One/DelaGothicOne-Regular.ttf");
+}
+  
+* {
+    font-family: "RedHat", sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background: url(../imgs/backgrounds/papel.jpg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "DelaGothicOne", sans-serif;
+}
+
+nav .navbar-brand {
+    font-family: "DelaGothicOne", sans-serif;
+}
+
+.citas blockquote {
+    border: 5px solid black;
+    position: relative;
+    padding: 40px 15px 30px;
+}
+.citas blockquote .comillas {
+    font-size: 8rem;
+    line-height: 0.2;
+    position: absolute;
+}
+
+.citas blockquote .comillas:first-of-type {
+    top: 25px;
+    left: 0;
+}
+
+.citas blockquote .comillas:last-of-type {
+    bottom: -35px;
+    right: 0;
+}
